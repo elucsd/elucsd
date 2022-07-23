@@ -56,7 +56,7 @@ nav img{
     width: 100%
 }
 
-.text{
+.index-text{
     width: 100%;
     color: white;
     position: absolute;
@@ -65,10 +65,10 @@ nav img{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-.text h1{
+.index-text h1{
     font-size: 62px;
 }
-.text p{
+.index-text p{
     margin: 10px 0 40px;
     font-size: 30px;
     color: white
