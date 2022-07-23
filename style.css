@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    
+    width: 100%;
+    background-image: url('space.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;       
+         
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    
+}
+
+.nav-links ul li a{
+    color: azure;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    color: white
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid #fff;
+    padding: 12px 30px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.video-player{
+    
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.text-about{
+    width: 80%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-about h1{
+    font-size: 50px;
+}
+.text-about p{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: white
+}
+
+
+#project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid;
+    border-bottom-color: darkgray;
+}
+.blog-container{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+    
+}
+
+.blog-box{ 
+    width: 350px;
+    background-color: #22084C;
+    border: 1px solid white;
+    margin: 20px;
+    float: left;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+    
+}
+.blog-img img{
+    
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.blog-text span{
+    color: aliceblue;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+.blog-text .blog-title1{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.blog-text .blog-title1:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
+
+.blog-text .blog-title3{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.blog-text .blog-title3:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
+.blog-text .blog-title2{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.blog-text .blog-title2:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
+
+
+
+.paragraph h1{
+    font-size: 62px;
+}
+.paragraph p{
+    margin:auto;
+    font-size: 25px;
+    font-family:sans-serif;
+    color: white
+}
+
+.text-box{ 
+    width: 350px;
+    background-color: #22084C;
+    border: 1px solid white;
+    margin: 20px;
+    float: left;
+}
+.text-img{
+    width: 100%;
+    height: auto;
+    
+}
+.text-img img{
+    
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text-content span{
+    color: aliceblue;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+.text-content .text-title1{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
