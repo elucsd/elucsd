@@ -196,7 +196,7 @@ nav img{
 
 
 .paragraph{
-    width: 100%;
+    width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -206,18 +206,21 @@ nav img{
     font-size: 62px;
     color: azure;
     font-family: sans-serif;
+    text-align: center;
+    
 }
 .paragraph p{
     margin:auto;
     font-size: 25px;
     font-family:sans-serif;
-    color: white
+    color: white; 
 }
 .paragraph a{
     color: lightpink;
   background-color: transparent;
   text-decoration: none;
 }
+
 
 .text-box{ 
     width: 350px;
