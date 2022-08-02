@@ -194,6 +194,33 @@ nav img{
     transition: all ease 0.3s;
 }
 
+.blog-text .blog-title4{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.blog-text .blog-title4:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
+
+.blog-text .blog-title5{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.blog-text .blog-title5:hover{
+    color: red;
+    transition: all ease 0.3s;
+}
+
+
 
 .paragraph{
     width: 90%;
